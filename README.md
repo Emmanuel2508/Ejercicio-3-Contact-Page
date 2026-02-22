@@ -27,8 +27,6 @@ Deploy: https://emmanuel2508.github.io/Ejercicio-3-Contact-Page/#
 ---
 
 ## 📝 Reflexión
-(Escribe aquí unas líneas sobre lo que aprendiste, las dificultades que tuviste y cómo las solucionaste)
-
 Tuve problemas al acomodar los inputs y sus respectivos labels, queria darle formato a los
 dos inputs agrupados en un solo div, simplemente lo solucione agrupando cada input y label 
 en su respectivo div.
