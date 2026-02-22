@@ -22,8 +22,8 @@ select y placeholders.
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: [Pega aquí tu enlace]  
-Deploy: [LINK](http://yomidev.github.io/newsletter/)
+Repositorio en GitHub: https://github.com/Emmanuel2508/Ejercicio-3-Contact-Page
+Deploy: https://emmanuel2508.github.io/Ejercicio-3-Contact-Page/#
 ---
 
 ## 📝 Reflexión
