@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(../images/background.svg);
+    background-size:  cover;
+    font-family: 'Roboto';
+}
+
+.main {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main header {
+  align-self: flex-start;
+}
+
+.encabezado {
+    margin-bottom: 40px;
+}
+
+header img {
+    padding: 20px;
+    margin-left: 15mm;
+    width: 100px;
+}
+
+.encabezado h1 {
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10mm;
+}
+
+.encabezado span {
+    margin-top: 12px;
+    font-weight: normal;
+    font-size: 5mm;
+}
+
+.formulario-fondo {
+    background-color: hsla(0, 0%, 100%, 0.226);
+    border-radius: 10px;
+}
+
+.formulario {
+    padding: 20px;
+}
+
+.formulario input, .formulario select {
+    border-radius: 10px;
+    border: transparent;
+}
+
+.formulario-1 input, .formulario-2 select{
+    height: 10mm;    
+}
+
+#size, #subject {
+    font-size: 10px;
+}
+
+.formulario-1, .formulario-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.formulario-1 label, .formulario-2 label, .formulario-3 label {
+    margin-bottom: 4px;
+    color: #FFF;
+    font-size: 10px;
+}
+
+.formulario-name, .formulario-email, .formulario-size, .formulario-subject, .formulario-3 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.formulario input {
+    padding-left: 10px;
+}
+
+.formulario ::placeholder {
+    color: #000;
+    font-size: 10px;
+}
+
+textarea {
+    height: 30mm;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 10px;
+    resize: none;
+}
+
+.input-expand {
+    background-image: url(../images/Expand_down.svg);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 15px;
+}
+
+.contacto {
+    text-decoration: none;
+    background-color: #FFF;
+    color: hsl(246 51.6% 43.7%);
+    display: flex;
+    width: 100%;
+    height: 10mm;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        margin-left: 0;
+    }
+
+    .formulario-fondo{
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    
+    .formulario-1, .formulario-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .formulario-1 input, .formulario-2 input {
+        width: 100%;
+    }
+
+
+}
